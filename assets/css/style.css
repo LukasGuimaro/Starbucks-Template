@@ -99,3 +99,22 @@ body {
     border: 6px solid #117050;
     margin-right: 30px;
 }
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area1 .content-area {
+
+}
+
+.area1 .area-img1 {
+    background-color: greenyellow;
+}
+
+.area1 .area-img2 {
+    background-color: violet;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
