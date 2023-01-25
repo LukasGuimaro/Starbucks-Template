@@ -157,3 +157,33 @@ h2 {
     margin-bottom: 50px;
     line-height: 25px;
 }
+/* Area 2 */
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2 .content2-area {
+    padding: 80px;
+}
+
+.area2 .area2-img1 {
+    background-image: url(../images/f4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.area2 .area2-img2 {
+    background-image: url(../images/f3.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.area2 .area2-text {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
