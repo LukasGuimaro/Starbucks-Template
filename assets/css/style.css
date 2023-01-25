@@ -71,3 +71,31 @@ body {
     width: 24px;
     height: 24px;
 }
+
+.banner {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.banner h1 {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    line-height: 90px;
+    margin-bottom: 40px;
+}
+
+.banner-images {
+    margin-top: 50px;
+}
+
+.banner-images img {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: 6px solid #117050;
+    margin-right: 30px;
+}
