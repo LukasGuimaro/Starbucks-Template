@@ -255,3 +255,94 @@ footer a {
 footer p {
     margin-bottom: 20px;
 }
+
+@media (min-width: 801px) and (max-width: 1140px) {
+    .conteiner {
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 800px) {
+    .conteiner {
+        padding: 0px 20px;
+    }
+
+    .area1 {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .area2 {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .area3 {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .area5 {
+        background-position: right;
+        height: 400px;
+    }
+}
+
+@media (max-width: 425px) {
+    .conteiner {
+        padding: 0px 20px;
+    }
+
+    .header-search input {
+        font-size: 16px;
+        padding: 10px 15px;
+        border: 1px solid #999;
+        outline: 0;
+        width: 100%;
+        max-width: 120px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .banner-images img {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #117050;
+        margin-right: 10px;
+    }
+
+    .area1, .area2, .area3, .area4 {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        text-align: none;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .area1 .content-area, .area2 .content2-area,
+    .area3 .content3-area, .area4 .content4-area {
+        padding: 30px;
+        text-align: justify;
+    }
+
+    .area5 {
+        background-position: right;
+        height: 200px;
+    }
+
+    footer {
+        padding: 40px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    footer p {
+        margin-bottom: 10px;
+    }
+
+    .header-right .header-menu {
+        margin-left: 10px;
+    }
+}
